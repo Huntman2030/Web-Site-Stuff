@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>All About Animals: Home</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Unlock the Wonders of the Animal Kingdom: Explore, Learn, and Connect!">
+        <meta name="author" content="Hunter Brown">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="encyclopedia.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+    <!-- Start of the page header -->
+    <header>
+            <h1>All About Animals</h1>
+            <p>Unlock the Wonders of the Animal Kingdom: Explore, Learn, and Connect!</p>
+    </header>
+    <!-- Start of the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">All About Animals</a></li>
+            <li><a href="supplies.html">Fun Facts</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="layouts.html">Layouts</a></li>
+            <li class="active"><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- Start of the page content -->
+    <main>
+        <h1>Newsletter</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="987-655-4321"></label>
+            <label>Email Address*<input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Email Frequency</legend>
+            <label><input type="radio" name="method" value="daily">Daily Emails</label>
+            <label><input type="radio" name="method" value="weekly">Weekly Emails</label>
+            <label><input type="radio" name="method" value="monthly">Monthly Emails</label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Email Content</legend>
+            <label><input type="checkbox" name="blog" value="chosen">New Blog Posts</label>
+            <label><input type="checkbox" name="discount" value="chosen">New Discounts and Offers</label>
+            <label><input type="checkbox" name="newsletter" value="chosen">Newsletter</label>
+            <label><input type="checkbox" name="events" value="chosen">Events</label>
+
+            <label>What Facts do you Want?
+            <select name="what facts do you want?">
+                <option value="none">Please Select</option>
+                <option value="fun facts">Fun Facts</option>
+                <option value="creepy facts">Creepy Facts</option>
+                <option value="scientific facts">Scientific Facts</option>
+            </select>
+            </label>
+            </fieldset>
+
+            <label>Comments
+            <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Subscribe">
+        </form>
+    </main>
+    <!-- Start of the page footer -->
+    <footer>
+<p>&copy; 2024 &bull; Hunter Brown &bull; <a href="mailto:huntman2030@gmail.com">Email Us</a></p>
+    </footer>
+
+</body>
+</html>
